@@ -30,7 +30,7 @@
  */
 
 // Maximum number of instruments to use
-const int MAX_INSTRUMENTS = 64;
+const int MAX_INSTRUMENTS = 255;
 
 // Hold instrument index
 const int HOLD_INSTRUMENT = 0xFF;		// // // 050B
@@ -58,7 +58,7 @@ const int MAX_DSAMPLES = 64;
 const int MAX_SAMPLE_SPACE = 0x40000;	// 256kB
 
 // Number of effect columns allowed
-const int MAX_EFFECT_COLUMNS = 4;
+const int MAX_EFFECT_COLUMNS = 8;
 
 // Maximum numbers of tracks allowed (NSF limit is 256, but dunno if the bankswitcher can handle that)
 const unsigned int MAX_TRACKS = 64;

@@ -67,10 +67,10 @@ const unsigned int MAX_TRACKS = 64;
 const int MAX_TEMPO	= 255;
 
 // Min tempo
-//const int MIN_TEMPO	= 21;
+// const int MIN_TEMPO = 21;
 
 // Max speed
-//const int MAX_SPEED = 20;
+// const int MAX_SPEED = 20;
 
 // Min speed
 const int MIN_SPEED = 1;

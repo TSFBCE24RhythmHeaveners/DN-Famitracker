@@ -70,7 +70,7 @@ The text command syntax for a detune table entry is:
  - DETUNE [chip] [octave] [note] [offset]
   - chip: int[0,5] - index of the detune table. 0=2A03, 1=2A07, 2=VRC6 sawtooth,
                      3=VRC7, 4=FDS, 5=N163
-  - octave: int[0,7] - octave of key
+  - octave: int[0,8] - octave of key
   - note: int[0,11] - scale note of key
   - offset: int[-32767,32767] - register offset
 
